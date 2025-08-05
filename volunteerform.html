@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <a href="homepage.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="volunteerform.html">VOLUNTEER</a>
+    </div>
+
+    <div>
+      <div class="container">
+        <form method="get">
+          <div class="title">Volunteer Application Form</div>
+          <p><b>Name</b></p>
+          <select id="pre" name="pre">
+            <option value="."></option>
+            <option value="mr">Mr.</option>
+            <option value="mrs">Mrs.</option></select
+          ><br />
+          <label for="pre">Prefix</label>
+          <input type="text" id="fname" name="fname" required />
+          <label for="fname">FIRSTNAME</label>
+          <input type="text" id="lname" name="lname" required />
+          <label for="lname">LASTNAME</label><br /><br />
+          <label for="bd">Birthdate</label>
+          <input type="date" id="bd" name="bd" required /><br /><br />
+          <label for="mail">Email</label><br />
+          <input type="email" id="mail" name="mail" required /><br />
+          <label for="phone">Phone Number</label><br />
+          <input type="number" id="phone" name="Phone" required /><br />
+          <p><b>Address</b></p>
+          <input type="text" id="text" name="text" required /><br />
+          <label for="ad">Street Address</label><br />
+          <input type="text" id="city" name="city" required /><br />
+          <label for="city">City</label><br />
+          <input type="text" id="state" name="state" required /><br />
+          <label for="state">State/ Province</label><br />
+          <input type="number" id="postal" name="postal" required /><br />
+          <label for="postal">Postal / Zip Code</label><br />
+          <p><b>Educational Background</b></p>
+          <label for="school">College / School</label><br />
+          <input type="text" id="school" name="school" required /><br />
+          <label for="dep">Department / Field</label><br />
+          <input type="text" id="dept" name="dept" required /><br />
+          <p><b>Occupation</b></p>
+          <label for="company">Company</label><br />
+          <input type="text" id="company" name="company" required /><br />
+          <label for="dept">Department / Position</label><br />
+          <input type="text" id="dept" name="dept" required /><br />
+          <label for="area">What area are you volunteering in?</label><br />
+          <input type="text" id="area" name="area" required /><br />
+          <p><b>Select your available days</b></p>
+          <input type="checkbox" id="monday" name="monday" />
+          <label for="monday">Monday</label><br />
+          <input type="checkbox" id="tuesday" name="tuesday" />
+          <label for="tuesday">Tuesday</label><br />
+          <input type="checkbox" id="wednesday" name="wednesday" />
+          <label for="wednesday">Wednesday</label><br />
+          <input type="checkbox" id="thursday" name="thursday" />
+          <label for="thursday">Thursday</label><br />
+          <input type="checkbox" id="friday" name="friday" />
+          <label for="friday">Friday</label><br />
+          <p><b> VOLUNTEER TERMS AND CONDITIONS</b></p>
+          <ol>
+            <li>
+              I agree that I am a volunteer, not an employee, and will not
+              receive wages or benefits.
+            </li>
+            <li>
+              I will perform my tasks responsibly and follow the NGO’s policies.
+            </li>
+            <li>
+              I will respect confidentiality and protect any sensitive
+              information.
+            </li>
+            <li>
+              I will follow health and safety rules. I will care for any
+              property or equipment provided.
+            </li>
+            <li>
+              I consent to the NGO using my photos/videos for promotional use
+              unless I state otherwise in writing.
+            </li>
+            <li>
+              I understand either I or the NGO may end this arrangement at any
+              time.
+            </li>
+            <li>
+              I agree to resolve any disputes through the NGO’s procedures.
+            </li>
+          </ol>
+
+          <label>
+            <input type="checkbox" name="agree" required />
+            I agree </label
+          ><br /><br />
+          <button>I volunteer</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

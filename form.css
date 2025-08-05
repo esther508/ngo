@@ -1,0 +1,109 @@
+.flex-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  z-index: 1000;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.flex-container a {
+  text-decoration: none;
+  color: black; 
+}
+
+.container {
+
+    max-width: 700px;
+    
+    width:90% ;
+    padding: 50px;
+    font-size: medium;
+    background-color:#d0a47b;
+    color: #2c1c0f;
+    box-shadow: 0 5px 7px -1px rgba(94, 89, 89, 0.23); 
+}
+
+body{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+    background-color:#fffaf3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+  padding-top: 80px; 
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    border: 2px ;
+    border-radius: 5px;
+    font-size: large;
+    background-color:white;
+    color:black ;
+    padding: 10px 20px;
+}
+
+button:hover{
+  background-color:whitesmoke ;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"]
+textarea {
+  width: 100%;         
+  padding: 12px ;  
+  margin: 8px 0;       
+  font-size: large;    
+  border: 2px solid #ccc; 
+  border-radius: 4px;     
+  
+  color: #000;  
+}
+
+p{
+    font-size: larger;
+}
+
+.title{
+    
+    font-size: xx-large;
+    
+    text-align: center;
+}
+
+label[for="fname"],
+label[for="lname"],
+label[for="state"],
+label[for="postal"],
+label[for="city"],
+label[for="ad"],
+label[for="pre"],
+text{
+    font-size:small;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 620px) {
+    .container {
+        padding: 20px;           
+        font-size: small;        
+    }
+    button {
+        width: 100%;             
+    }
+    .title {
+        font-size: x-large;      
+    }
+}
+
+
+
